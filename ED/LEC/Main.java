@@ -13,7 +13,7 @@ public class Main {
         Node n6 = new Node("6");
         Node n7 = new Node("7");
 
-        // Inserções
+      
         lista.add(n1);
         lista.add(n2);
         lista.add(n3);
@@ -25,39 +25,39 @@ public class Main {
         System.out.println("Lista após inserções:");
         printLista(lista);
 
-        // Remover do meio
+     
         lista.remove(n4);
         System.out.println("\nApós remover o 4:");
         printLista(lista);
 
-        // Remover outro do meio
+     
         lista.remove(n6);
         System.out.println("\nApós remover o 6:");
         printLista(lista);
 
-        // Remover início
+      
         lista.remove(n1);
         System.out.println("\nApós remover o 1 (início):");
         printLista(lista);
 
-        // Remover último (dependendo da ordem atual)
+        
         lista.remove(n7);
         System.out.println("\nApós remover o 7:");
         printLista(lista);
 
-        // Remover vários seguidos
+        
         lista.remove(n2);
         lista.remove(n3);
         System.out.println("\nApós remover 2 e 3:");
         printLista(lista);
 
-        // Deixar só 1 elemento
+ 
         lista.remove(n5);
         System.out.println("\nApós remover 5 (resta apenas 1 elemento):");
         printLista(lista);
 
-        // Remover último elemento
-        lista.remove(n6); // pode já ter sido removido antes, bom pra testar segurança
+ 
+        lista.remove(n6);
         System.out.println("\nApós tentar remover 6 novamente:");
         printLista(lista);
     }
